@@ -128,7 +128,40 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.fillWidth {
+	width: 100%;
+}
+
+.redBox {
+	font-family: Arial;
+	background-image: url("../images/nav_side.jpg");
+}
+
+.redBoxLocation {
+	font-size: 19px;
+	margin-bottom: 10px;
+	line-height: 250%;
+}
+
+#whereWeWork {
+	width: 256px;
+	height: 385px;
+	padding: 25px;
+}
+
+#redBoxTitle {
+	font-size: 25px;
+	border-bottom: 2px solid white;
+	line-height: 180%;
+}
+
+#redBoxContent {
+	font-size: 18px;
+	line-height: 180%;
 }
