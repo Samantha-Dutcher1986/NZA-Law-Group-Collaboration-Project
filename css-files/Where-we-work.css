@@ -138,6 +138,22 @@ table {
 	width: 100%;
 }
 
+*{
+
+}
+
+/* HAVING PROBLEMS GETTING THE BACKGROUND IMAGE TO SHOW!!! PLEASE FEEL FREE TO TRY TO GET IT TO WORK! */
+/* .body{
+  width: 60vw;
+  height: 80vh;
+  background-image: image('nza-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed; 
+} */
+
+/* Josh Adler */
+
 .redBox {
 	font-family: Arial;
 	background-image: url("../images/nav_side.jpg");
@@ -164,4 +180,59 @@ table {
 #redBoxContent {
 	font-size: 18px;
 	line-height: 180%;
+}
+
+/* Samantha Dutcher */
+
+.content-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col1-wrapper{
+  display: grid;
+  grid-column: 1;
+  padding-left: 100px;
+  width: 25vw;
+  /* border: 2px solid red; */
+}
+
+.col2-wrapper{
+  display: grid;
+  grid-column: repeat(2, 1fr);
+  padding-right: 100px;
+  width: 60vw;
+  /* border: 2px solid blue; */
+  grid-auto-rows: minmax(35px, auto);
+}
+
+.places-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* border: 2px solid purple; */
+}
+
+.states-wrapper{
+  grid-column: 1;
+  grid-row: 1 / 2;
+  width: 35vw;
+  /* border: 2px solid orange; */
+}
+
+.int-wrapper{
+  grid-column: 2;
+  grid-row: 1 / 2;
+  width: 25vw;
+  /* border: 2px solid green; */
+}
+
+h4{
+  font-weight: bold;
+  font-size: 1.25rem;;
+}
+
+.states-wrapper ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
 }
