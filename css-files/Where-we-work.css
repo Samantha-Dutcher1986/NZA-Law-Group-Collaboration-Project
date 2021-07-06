@@ -584,7 +584,7 @@ footer{
   font-size: 19px;
   margin-bottom: 10px;
   line-height: 250%;
-  background-image: url("../images/nav_side.jpg");
+ 
 }
 
 #whereWeWork {
@@ -597,13 +597,13 @@ footer{
   font-size: 25px;
   border-bottom: 2px solid white;
   line-height: 180%;
-  background-image: url("../images/nav_side.jpg");
+
 }
 
 #redBoxContent {
   font-size: 18px;
   line-height: 180%;
-  background-image: url("/images/nav_side_sub.jpg");
+
 }
 
 /* Samantha Dutcher */
