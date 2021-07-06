@@ -624,7 +624,7 @@ footer{
 .col1-wrapper {
   display: grid;
   grid-column: 1;
-  padding-left: 100px;
+  padding-left: 62px;
   width: 25vw;
   /* border: 2px solid red; */
 }
@@ -632,7 +632,7 @@ footer{
 .col2-wrapper {
   display: grid;
   grid-column: repeat(2, 1fr);
-  padding-right: 100px;
+  padding-right: 62px;
   width: 60vw;
   /* border: 2px solid blue; */
   grid-auto-rows: minmax(35px, auto);
