@@ -1,4 +1,9 @@
-/* CSS Code for What We Do page */
+
+
+
+
+/* CSS Code for Where We Work Page */
+
 /* Add CSS styling here */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -6,6 +11,9 @@
 */
 
 /* CODE GOES BELOW THE CSS RESET I'VE ADDED! DON'T WORRY! I'LL EXPLAIN WHAT IT'S FOR! */
+
+
+
 
 html,
 body,
@@ -127,7 +135,650 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* <<<<<<< Sydney-Romero */
+header{
+
+
+  padding-left: 81px;
+  padding-right: 81px;
+}
+
+.above_nav{
+width: 100%;
+height:78px;
+
+
+
+}
+.header_login
+{
+float:right;
+display:flex;
+justify-content: center;
+
+background-color: #CCCCCC;
+width: 81px;
+height: 47px;
+margin-bottom: 0px;
+border-bottom-right-radius:15px;
+border-bottom-left-radius:15px;
+
+}
+
+
+
+.login_spot
+{
+  width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-family:Arial, Helvetica, sans-serif;
+color: #FFFFFF;
+font-size: 20px;
+
+}
+
+
+
+
+
+.logo {
+display: flex;
+flex-wrap: wrap;
+  
+
+
+}
+
+.secondary_header{
+
+border-top: 2px solid;
+border-bottom: 2px solid;
+border-color: #000000;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-top:20px;
+
+
+}
+
+.link{
+  color: #000000;
+}
+
+.login{
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+.nav_ops{
+
+  display:flex;
+  justify-content:space-between;
+  width: 100%;
+  font-weight: bold;
+  
+  
+
+}
+
+.W1{
+
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+.W2{
+
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+
+}
+.W3{
+
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+
+
+}
+.W4{
+
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+
+
+}
+.W5{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+
+
+}
+
+footer{
+
+  padding-left: 81px;
+  padding-right: 81px;
+  padding-top:25px;
+}
+
+.primary_footer{
+
+  border-top: 2px solid;
+  border-color: #000000;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  width: 100%;
+  
+  }
+  
+  .nav_ops2{
+    display:flex;
+    justify-content:space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: bold;
+  }
+
+
+  
+  .F1{
+  
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin:auto;
+    display:flex;
+    justify-content:center;
+  }
+  .F2{
+  
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin:auto;
+    display:flex;
+    justify-content:center;
+  
+  }
+  .F3{
+  
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin:auto;
+    display:flex;
+    justify-content:center;
+  
+  
+  }
+  .F4{
+  
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin:auto;
+    display:flex;
+    justify-content:center;
+  
+  
+  }
+  .F5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+  
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fillWidth {
+  width: 100%;
+}
+
+/* Team Code */
+
+
+
+body{
+  background-image: url("../images/nza_background.jpg");
+}
+.content {
+  margin-top: 30px;
+}
+
+section{
+  background-color:#FFFFFF;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+/* Sydney Romero */
+
+header{
+  padding-left: 81px;
+  padding-right: 81px;
+}
+
+
+
+.above_nav{
+  width: 100%;
+  height:78px;
+}
+
+.header_login{
+  float:right;
+  display:flex;
+  justify-content: center;
+  background-color: #CCCCCC;
+  width: 81px;
+  height: 47;
+  margin-bottom: 0px;
+  border-bottom-right-radius:15px;
+  border-bottom-left-radius:15px;
+}
+
+.login_spot{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+/* .logo_holder {
+  EMPTY CODE BLOCK!!
+} */
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondary_header{
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.link{
+  color: #000000;
+}
+
+.login{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav_ops{
+  display:flex;
+  justify-content:space-between;
+  width: 100%;
+}
+
+.W1{
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+
+.W2{
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+
+.W3{
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+
+.W4{
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+
+.W5{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+
+footer{
+  padding-left: 81px;
+  padding-right: 81px;
+  padding-top:25px;
+}
+
+.primary_footer{
+  border-top: 2px solid;
+  border-color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.nav_ops2{
+  display:flex;
+  justify-content:space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.F1{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.F2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.F3{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.F4{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.F5{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+
+/* Josh Adler */
+
+.redBox {
+  font-family: Arial;
+  background-image: url("../images/nav_side.jpg");
+  background-size: 100% 100%;
+  color: #FFFFFF;
+}
+
+#redBoxTitle {
+  font-size: 25px;
+  border-bottom: 2px solid white;
+  line-height: 180%;
+
+}
+
+#redBoxContent {
+  font-size: 18px;
+  line-height: 180%;
+
+}
+
+.redBoxLocation {
+  font-size: 19px;
+  margin-bottom: 10px;
+  line-height: 250%;
+ 
+}
+
+.redbox_lists{
+  font-size: 18px;
+  line-height: 175%;
+  margin-left: 20px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+
+
+}
+
+#whereWeWork {
+  width: 256px;
+  height: 100%;
+  padding: 25px 25px 0px 25px;
+}
+
+
+
+
+
+/* Samantha Dutcher */
+
+
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding-right: 62px;
+  padding-left: 62px;
+}
+.lorem{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  width: 100%;
+
+}
+
+.col1-wrapper {
+  display: grid;
+  grid-column: 1;
+  padding-left: px;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.col2-wrapper {
+  
+  grid-column: repeat(2, 1fr);
+  width: 100%;
+  /* border: 2px solid blue; */
+  grid-auto-rows: minmax(35px, auto);
+}
+
+.images-wrapper {
+  display: grid;
+  /* border: 2px solid purple; */
+}
+
+
+
+h4 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.images_box{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas:
+
+
+                      "subr lit"
+                      "bus tran"          
+
+
+}
+#subr{
+  grid-area: subr;
+}
+#lit{
+  grid-area: lit;
+}
+#bus{
+  grid-area: bus;
+}
+#tran{
+  grid-area: tran;
+}
+
+.subr{
+
+  padding: 5% 5% 2% 5%;
+  place-self: center;
+      
+  }
+  
+  .lit{
+  
+  padding: 5% 5% 2% 5%;
+  place-self: center;
+  
+  
+          
+  }
+  
+   .bus{
+  
+  padding: 2% 5% 5% 5%;
+  place-self: center;
+      
+  }
+  
+  .tran{
+  
+  padding: 2% 5% 5% 5%;
+  place-self: center;
+          
+      }
+
+
+
+/* Sydney Romero */
+
+footer{
+  padding-left: 81px;
+  padding-right: 81px;
+  padding-top:50px;
+}
+
+.primary_footer{
+  border-top: 2px solid;
+  border-color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.nav_ops2{
+  display:flex;
+  justify-content:space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+  
+.F1{  
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+  
+.F2{  
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.F3{  
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.F4{  
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.F5{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
+/* >>>>>>> main */
