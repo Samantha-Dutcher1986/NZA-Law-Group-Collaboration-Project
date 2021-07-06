@@ -553,16 +553,17 @@ footer{
 .col1-wrapper {
   display: grid;
   grid-column: 1;
-  padding-left: 62px;
+  padding-left: 20px;
   width: 25vw;
   /* border: 2px solid red; */
 }
 
 .col2-wrapper {
   display: grid;
-  grid-column: repeat(2, 1fr);
-  padding-right: 62px;
-  width: 60vw;
+  grid-column: 2;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 40vw;
   /* border: 2px solid blue; */
   grid-auto-rows: minmax(35px, auto);
 }
