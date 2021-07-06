@@ -143,71 +143,49 @@ table {
 
 /* <<<<<<< Sydney-Romero */
 header{
-
-
   padding-left: 81px;
   padding-right: 81px;
 }
 
 .above_nav{
-width: 100%;
-height:78px;
-
-
-
-}
-.header_login
-{
-float:right;
-display:flex;
-justify-content: center;
-
-background-color: #CCCCCC;
-width: 81px;
-height: 47px;
-margin-bottom: 0px;
-border-bottom-right-radius:15px;
-border-bottom-left-radius:15px;
-
+  width: 100%;
+  height:78px;
 }
 
+.header_login{
+  float:right;
+  display:flex;
+  justify-content: center;
+  background-color: #CCCCCC;
+  width: 81px;
+  height: 47px;
+  margin-bottom: 0px;
+  border-bottom-right-radius:15px;
+  border-bottom-left-radius:15px;
+}
 
-
-.login_spot
-{
+.login_spot{
   width:100%;
-display:flex;
-justify-content:center;
-align-items:center;
-
-font-family:Arial, Helvetica, sans-serif;
-color: #FFFFFF;
-font-size: 20px;
-
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
 }
-
-
-
-
 
 .logo {
-display: flex;
-flex-wrap: wrap;
-  
-
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .secondary_header{
-
-border-top: 2px solid;
-border-bottom: 2px solid;
-border-color: #000000;
-padding-top: 15px;
-padding-bottom: 15px;
-margin-top:20px;
-
-
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top:20px;
 }
 
 .link{
@@ -217,22 +195,16 @@ margin-top:20px;
 .login{
   text-decoration: none;
   color: #FFFFFF;
-
 }
 
 .nav_ops{
-
   display:flex;
   justify-content:space-between;
   width: 100%;
   font-weight: bold;
-  
-  
-
 }
 
 .W1{
-
   font-family: Arial, Helvetica, sans-serif;
   border-right: 1px solid;
   border-color:#CDCDCD;
@@ -241,8 +213,8 @@ margin-top:20px;
   display:flex;
   justify-content:center;
 }
+
 .W2{
-
   font-family: Arial, Helvetica, sans-serif;
   border-right: 1px solid;
   border-color:#CDCDCD;
@@ -250,10 +222,9 @@ margin-top:20px;
   width:20%;
   display:flex;
   justify-content:center;
-
 }
+
 .W3{
-
   font-family: Arial, Helvetica, sans-serif;
   border-right: 1px solid;
   border-color:#CDCDCD;
@@ -261,11 +232,9 @@ margin-top:20px;
   width:20%;
   display:flex;
   justify-content:center;
-
-
 }
+
 .W4{
-
   font-family: Arial, Helvetica, sans-serif;
   border-right: 1px solid;
   border-color:#CDCDCD;
@@ -273,107 +242,72 @@ margin-top:20px;
   width:20%;
   display:flex;
   justify-content:center;
-
-
 }
+
 .W5{
   font-family: Arial, Helvetica, sans-serif;
   margin:auto;
   width:20%;
   display:flex;
   justify-content:center;
-
-
 }
 
 footer{
-
   padding-left: 81px;
   padding-right: 81px;
   padding-top:25px;
 }
 
 .primary_footer{
-
   border-top: 2px solid;
   border-color: #000000;
-
   padding-top: 15px;
   padding-bottom: 15px;
-
   width: 100%;
+}
   
-  }
+.nav_ops2{
+  display:flex;
+  justify-content:space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-weight: bold;
+}
   
-  .nav_ops2{
-    display:flex;
-    justify-content:space-between;
-    padding-left: 15%;
-    padding-right: 15%;
-    font-weight: bold;
-  }
+.F1{  
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
 
+.F2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
 
-  
-  .F1{
-  
-    font-family: Arial, Helvetica, sans-serif;
+.F3{ 
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
 
-    margin:auto;
-    display:flex;
-    justify-content:center;
-  }
-  .F2{
-  
-    font-family: Arial, Helvetica, sans-serif;
+.F4{  
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
 
-    margin:auto;
-    display:flex;
-    justify-content:center;
-  
-  }
-  .F3{
-  
-    font-family: Arial, Helvetica, sans-serif;
-
-    margin:auto;
-    display:flex;
-    justify-content:center;
-  
-  
-  }
-  .F4{
-  
-    font-family: Arial, Helvetica, sans-serif;
-
-    margin:auto;
-    display:flex;
-    justify-content:center;
-  
-  
-  }
-  .F5{
-    font-family: Arial, Helvetica, sans-serif;
-    margin:auto;
-    display:flex;
-    justify-content:center;
-  
-  
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.F5{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+}
 
 .fillWidth {
   width: 100%;
@@ -381,10 +315,9 @@ footer{
 
 /* Team Code */
 
-
-
 body{
   background-image: url("../images/nza_background.jpg");
+  color: black;
 }
 .content {
   margin-top: 30px;
@@ -402,8 +335,6 @@ header{
   padding-left: 81px;
   padding-right: 81px;
 }
-
-
 
 .above_nav{
   width: 100%;
@@ -610,6 +541,11 @@ footer{
 
 .content-wrapper {
   display: grid;
+  
+  grid-template-columns: 30% 70%;
+  padding-right: 62px;
+  padding-left: 62px;
+
   grid-template-columns: repeat(2, 1fr);
   padding-right: 62px;
   padding-left: 62px;
@@ -621,8 +557,6 @@ footer{
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   width: 100%;
-
-
 }
 
 .col1-wrapper {
@@ -746,4 +680,5 @@ footer{
   justify-content:center;
 }
 
-/* >>>>>>> main */
+/* <<<<<<< samantha-dutcher*/
+
