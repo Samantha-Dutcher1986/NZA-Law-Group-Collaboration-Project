@@ -545,7 +545,9 @@ footer{
 
 .content-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 30% 70%;
+  padding-right: 62px;
+  padding-left: 62px;
 }
 
 .col1-wrapper {
