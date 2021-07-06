@@ -132,3 +132,151 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* PROJECT CODE */
+
+/* body {
+	font-family: Arial;
+	display: flex;
+	justify-content: center;
+	background-image: url("../images/nza_background.jpg");
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+} */
+
+
+/* section{
+  background-image: url("../images/other_links_background.jpg");
+} */
+
+body{
+  background-image: url("../images/nza_background.jpg");
+  color: black;
+}
+.content {
+  margin-top: 30px;
+}
+
+section{
+  background-color:#FFFFFF;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+header{
+  padding-left: 81px;
+  padding-right: 81px;
+}
+
+.above_nav{
+  width: 100%;
+  height:78px;
+}
+
+.header_login{
+  float:right;
+  display:flex;
+  justify-content: center;
+  background-color: #CCCCCC;
+  width: 81px;
+  height: 47;
+  margin-bottom: 0px;
+  border-bottom-right-radius:15px;
+  border-bottom-left-radius:15px;
+}
+
+.login_spot{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+/* .logo_holder {
+  EMPTY CODE BLOCK!!
+} */
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondary_header{
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.link{
+  color: #000000;
+}
+
+.login{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav_ops{
+  display:flex;
+  justify-content:space-between;
+  width: 100%;
+}
+
+.W1{
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+
+.W2{
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+
+.W3{
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+
+.W4{
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid;
+  border-color:#CDCDCD;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
+
+.W5{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  width:20%;
+  display:flex;
+  justify-content:center;
+}
