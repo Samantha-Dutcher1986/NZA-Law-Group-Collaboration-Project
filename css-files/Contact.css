@@ -252,67 +252,6 @@ header{
   justify-content:center;
 }
 
-footer{
-  padding-left: 81px;
-  padding-right: 81px;
-  padding-top:25px;
-}
-
-.primary_footer{
-  border-top: 2px solid;
-  border-color: #000000;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 100%;
-}
-  
-.nav_ops2{
-  display:flex;
-  justify-content:space-between;
-  padding-left: 15%;
-  padding-right: 15%;
-  font-weight: bold;
-}
-  
-.F1{  
-  font-family: Arial, Helvetica, sans-serif;
-  margin:auto;
-  display:flex;
-  justify-content:center;
-}
-
-.F2{
-  font-family: Arial, Helvetica, sans-serif;
-  margin:auto;
-  display:flex;
-  justify-content:center;
-}
-
-.F3{ 
-  font-family: Arial, Helvetica, sans-serif;
-  margin:auto;
-  display:flex;
-  justify-content:center;
-}
-
-.F4{  
-  font-family: Arial, Helvetica, sans-serif;
-  margin:auto;
-  display:flex;
-  justify-content:center;
-}
-
-.F5{
-  font-family: Arial, Helvetica, sans-serif;
-  margin:auto;
-  display:flex;
-  justify-content:center;
-}
-
-.fillWidth {
-  width: 100%;
-}
-
 /* Team Code */
 
 body{
@@ -367,13 +306,11 @@ section{
   display: grid;
   grid-template-columns: 30% 40% 30%;
   padding-right: 62px;
-  /* padding-left: 62px; */
 }
 
 .col1 {
   display: grid;
   grid-column: 1;
-  /* padding-left: 62px; */
   width: 25vw;
   /* border: 2px solid red; */
 }
